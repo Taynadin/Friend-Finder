@@ -1,8 +1,8 @@
 //Include the path package to get the correct file path
 var path = require('path');
-//***********************
+//========================
 // Routing
-//***********************
+//========================
 module.exports = function(app) {
 // // Basic route that sends the userto the home page
   app.get('/', function (req, res) {
